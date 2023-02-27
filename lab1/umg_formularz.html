@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <img src="logoUMG.png" alt="">
+    <h1 style="display:inline">Uniwersytet Morski w Gdyni</h1>
+    <img src="budynekUMG.jpg" alt="">
+  </div>
+
+  <article>
+    <h2>Formularz rejestracyjny</h2>
+    <form action="" method="post">
+      <label for="imie">Imie</label>
+      <input type="text" name="imie">
+
+      <label for="nazwisko">Nazwisko</label>
+      <input type="text" name="nazwisko"> <br>
+
+      <label for="email">Adres e-mail</label>
+      <input type="email" name="email"> <br>
+
+      <label for="land">Województwo</label>
+      <select name="land">
+        <option value="pomorskie">Pomorskie</option>
+        <option value="malopolskie">Małopolskie</option>
+        <option value="wielkopolskie">Wielkopolskie</option>
+      </select> <br>
+
+      <label for="wydzial">Wydział:</label>
+      <div name="wydzial">
+        <input type="checkbox" name="elektryczny"> Elektryczny <br>
+        <input type="checkbox" name="mechaniczny"> Mechaniczny <br>
+        <input type="checkbox" name="nawigacyjny"> Nawigacyjny <br>
+        <input type="checkbox" name="przedsiebiorczosci"> Przedsiębiorczości i towaroznastwa <br>
+      </div >
+      
+      <label for="radios">Chcę otrzymywać:</label> 
+      <div name="radios"><input type="radio" name="someinfo"> tylko informacje na temat rekrutacji <input type="radio" name="allinfo"> wszystkie informacje <br></div >
+      
+      <label for="uwagi">Uwagi/komentarze</label>
+      <textarea name="uwagi" id="" cols="30" rows="10"></textarea> <br>
+    </form>
+  </article>
+</body>
+</html>
